@@ -1,0 +1,29 @@
+{
+    "name": "rsimulatorjs-log",
+    "version": "0.3.1",
+    "author": "Magnus Bjuvensjö <bjuvensjo@gmail.com>",
+    "description": "rsimulatorjs-log",
+    "contributors": [ 
+        {
+            "name": "Magnus Bjuvensjö",
+            "email": "bjuvensjo@gmail.com"
+        } 
+    ],
+    "main": "./src/module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bjuvensjo/rsimulatorjs-log.git"
+    },
+    "dependencies" : {
+        "log4js": ">=0.6.6"
+    },
+    "devDependencies": {
+        "buster":  "0.5.x"
+    },
+    "license": "BSD",
+    "engines": {
+        "node": ">=0.6"
+    }
+}
+
+

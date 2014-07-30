@@ -19,4 +19,3 @@ buster.testCase('getLogger', {
     }
 
 });
-

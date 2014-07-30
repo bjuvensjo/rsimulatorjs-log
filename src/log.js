@@ -16,7 +16,7 @@ module.exports = (function () {
 
         if (!logger) {
             logger = (function (log4jLogger) {
-                
+
                 return {
                     debug: function () {
                         doLog(log4jLogger, 'debug', arguments);
@@ -39,7 +39,8 @@ module.exports = (function () {
     };
 
     return {
-        getLogger: getLogger
+        getLogger: getLogger,
+        setGlobalLogLevel: log4js.setGlobalLogLevel
     };
 
 }());

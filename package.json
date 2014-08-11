@@ -1,6 +1,6 @@
 {
     "name": "rsimulatorjs-log",
-    "version": "0.3.2",
+    "version": "0.4.0",
     "author": "Magnus Bjuvensjö <bjuvensjo@gmail.com>",
     "description": "rsimulatorjs-log",
     "contributors": [ 
@@ -18,7 +18,7 @@
         "log4js": ">=0.6.6"
     },
     "devDependencies": {
-        "buster":  "0.5.x"
+        "buster":  "~0.6.12"
     },
     "license": "BSD",
     "engines": {

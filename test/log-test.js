@@ -1,21 +1,18 @@
-var buster = require('buster');
-var logger = require(__filename.replace(/test/, 'src').replace(/-test.js$/, '.js'));
+var expect = require("expect.js");
+var logger = require(__filename.replace(/test/, "src").replace(/-test.js$/, ".js"));
 
+describe("getLogger", function () {
 
-buster.testCase('getLogger', {
+    it("getLogger", function () {
+        
+        expect(logger.getLogger()).to.be.ok();
+        
+    });
     
-    'getLogger': function () {
-        assert(logger.getLogger());
-    }
-    
-});
+    it("getLogger.info", function () {
 
-buster.testCase('getLogger', {
-    
-    'getLogger.info': function () {
+        expect(logger.getLogger().info).to.be.ok();
 
-        assert(logger.getLogger().info);
-
-    }
+    });
 
 });
